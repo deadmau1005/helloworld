@@ -5,6 +5,6 @@ install:
   - sudo apt update
   - sudo apt-get install -y libcur14-openssl-dev
   
-script: 
+script:
   - gcc hello.c -o hello -lcurl
   - ./hello
