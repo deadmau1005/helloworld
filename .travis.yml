@@ -6,5 +6,5 @@ install:
   - sudo apt-get install -y libcur14-openssl-dev
   
 script: 
-  - gcc hello.c -o hello -lcurl
-  - ./hello
+  - gcc helloc.c -o helloc -lcurl
+  - ./helloc
